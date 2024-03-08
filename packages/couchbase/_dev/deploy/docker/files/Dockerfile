@@ -1,4 +1,4 @@
-FROM golang:1.18
+FROM golang:1.22.0
 WORKDIR /usr/src/
 RUN git clone https://github.com/couchbaselabs/couchbase-sync-gateway-exporter.git
 WORKDIR /usr/src/couchbase-sync-gateway-exporter/
